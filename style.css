@@ -1,0 +1,102 @@
+
+
+body{background-color:skyblue;}
+
+@media (max-width:1500px){
+  body{display:inline-block;}
+}
+@media (max-width:1500px){
+    .legend{display:inline-block;}
+}
+
+.detail {display:none;
+       font-size:24px;
+     color:green;
+     position:absolute;
+			left:450px;
+    bottom:-150px;}
+.frame{margin: 30px 150px;
+       display: flex;
+       flex-direction: column;}
+
+.values{margin: 30px 150px;
+        display: flex;
+        flex-direction: column;
+        }
+
+.navigator{display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           font-family: 'Rubik', sans-serif;
+           font-size:32px;}
+
+.core{padding-bottom: 40px;}
+h3:hover{color:white;}
+
+h3{font-size: 30px;
+   }
+
+li{display:inline;
+   margin:0;
+   font-size:18px;}
+
+.dashboard{font-family: 'Libre Franklin', sans-serif;
+           font-size:28px;
+           margin-right:50px;}
+
+           .sample{background-color: gray;}
+           .sample:hover{color:white;}
+
+           .sample2{background-color: gray;}
+           .sample2:hover{color:white;}
+
+#picture{width:410px;
+         height:520px;
+         margin-left: 55%;
+         margin-top:-24%;}
+
+.information ul{position:relative;
+                top:85px;
+                right:35px;
+                font-size:20px;
+                }
+
+                .piechart {
+
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-image: conic-gradient(
+                red 0 100deg,
+                blue 0 210deg,
+                green 0 100deg);
+              margin:90px;
+              margin-left:45%;
+            }
+
+            .legend {
+    display: grid;
+    grid-template-columns: 50px auto;
+    margin-top: -700px;
+    margin-left: 1100px;}
+
+    .legend div{ padding: 10px; }
+.segment1 { background: green; }
+.segment2 { background: blue; }
+.segment3 { background: red; }
+
+
+.value-icon{width:450px;
+            height:210px;
+            margin-left: 1%;
+            margin-top:1%}
+
+h1{font-size:40px;}
+
+.core {display:flex;
+       flex-direction:column;
+
+       margin-bottom:100px;}
+
+.values{margin-bottom:200px;}
